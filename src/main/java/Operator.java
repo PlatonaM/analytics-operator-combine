@@ -28,7 +28,7 @@ public class Operator {
         InputParser inputParser = new InputParser();
         inputParser.parse(config.getInputTopicsConfigs());
         Combine combine = new Combine(
-                config.getConfigValue("unique_fields", null),
+                config.getConfigValue("unique_inputs", null),
                 inputParser.getInputs()
         );
         Stream stream = new Stream();
