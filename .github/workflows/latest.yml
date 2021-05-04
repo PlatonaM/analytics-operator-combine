@@ -30,4 +30,4 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            ghcr.io/PlatonaM/analytics-operator-combine:latest
+            ghcr.io/platonam/analytics-operator-combine:latest
