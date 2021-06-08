@@ -1,6 +1,6 @@
 ## analytics-operator-combine
 
-Combine multiple inputs to a single output and relay selected inputs as unique outputs.
+Combine multiple inputs to a single output and exclude selected inputs to be relayed as unique outputs.
 
 ### Configuration
 
@@ -8,6 +8,12 @@ Combine multiple inputs to a single output and relay selected inputs as unique o
 
 `logging_level`: Set logging level to `info`, `warning`, `error` or `debug`.
 
+### Inputs
+
+User defined via GUI.
+
 ### Outputs
 
-`combined_data`: Combined inputs.
+`combined_data`: Combined inputs (JSON).
+
+Relayed inputs.
